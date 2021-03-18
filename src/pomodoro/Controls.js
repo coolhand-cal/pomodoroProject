@@ -1,7 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import classNames from "../utils/class-names";
-import useInterval from "../utils/useInterval";
-import {secondsToDuration, toHours, minutesToDuration} from '../utils/duration';
 function Controls ({timerActive, setTimer, session, setSession, focus, setCount, setMode, setActivityTimer}) {
 
   const x = document.createElement("AUDIO")
