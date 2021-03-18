@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import classNames from "../utils/class-names";
-import {secondsToDuration, toHours, minutesToDuration} from '../utils/duration';
+import { minutesToDuration} from '../utils/duration';
 
 
 
 
 
 function Interval ({intervalTime,updateTimer, name, updateCountDown, countDownTime, limitUp, limitDown, sessionActive, increment}) {
-  const startTime = intervalTime;
+  
 
   const changeTime = (direction) => {
     
