@@ -1,7 +1,5 @@
-import React, { useState } from "react";
-import classNames from "../utils/class-names";
-import useInterval from "../utils/useInterval";
-import {secondsToDuration, toHours, minutesToDuration} from '../utils/duration';
+import React from "react";
+import {secondsToDuration, minutesToDuration} from '../utils/duration';
 
 
 
